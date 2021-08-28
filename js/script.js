@@ -90,7 +90,15 @@ $("#formulario").submit(function(e) {
 	    type: 'POST',
         data: formData,
         success: function(user) {
-           alert("Usuário salvo com sucesso.");
+        	if(user.erro)
+        	{
+        		alert(user.erro[2]);
+        	}
+        	else
+        	{
+        		alert("Usuário salvo com sucesso.");
+        		document.location.reload(true);
+        	}
         },
         error: function(data) {
             alert(JSON.stringify(JSON.parse(data.responseText), null, 4));
@@ -98,8 +106,6 @@ $("#formulario").submit(function(e) {
         cache: false,
         contentType: false,
         processData: false
-    }).done(function(res){
-    	document.location.reload(true);
     });
 
 });
