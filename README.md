@@ -14,14 +14,14 @@ ___
 ___
 
 ## Testes Realizados
-[x] Listar todos os usuários
-[x] Cadastrar usuário
-[x] Tentar cadastrar com o mesmo nome e email de outro usuário
-[x] Tentar cadastrar com o mesmo nome de outro usuário
-[x] Tentar cadastrar com o mesmo email de outro usuário
-[x] Editar usuário
-[x] Tentar editar o usuário com o mesmo nome e email de outro usuário
-[x] Tentar editar o usuário com o mesmo nome de outro usuário
-[x] Tentar editar o usuário com o mesmo email de outro usuário
-[x] Excluir usuário
-[x] Imagem 200x200 com 70% de qualidade
+- [x] Listar todos os usuários
+- [x] Cadastrar usuário
+- [x] Tentar cadastrar com o mesmo nome e email de outro usuário
+- [x] Tentar cadastrar com o mesmo nome de outro usuário
+- [x] Tentar cadastrar com o mesmo email de outro usuário
+- [x] Editar usuário
+- [x] Tentar editar o usuário com o mesmo nome e email de outro usuário
+- [x] Tentar editar o usuário com o mesmo nome de outro usuário
+- [x] Tentar editar o usuário com o mesmo email de outro usuário
+- [x] Excluir usuário
+- [x] Imagem 200x200 com 70% de qualidade
