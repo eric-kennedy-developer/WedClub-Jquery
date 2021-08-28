@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>WedClub Jquery</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+
+  
+  <link rel="stylesheet" href="css/bootstrap.css" id="bscss">
+  <link rel="stylesheet" href="css/style.css" id="bscss">
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+
+
+
+<div class="modal fade" id="ModalWedClub" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+     <form id="formulario" method="post" enctype="multipart/form-data">
+      <div class="modal-header">
+        <h5 class="modal-title" id="titleModal">Cadastrar</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">        
+          <div class="form-group">
+            <label class="col-form-label">Foto de Perfil:</label>
+            <input type="file" class="form-control" id="foto_perfil" name="foto_perfil" required>
+          </div>
+          <div class="form-group">
+            <label class="col-form-label">Nome:</label>
+            <input type="text" class="form-control" id="name" name="name" value="" required>
+          </div>
+          <div class="form-group">
+            <label class="col-form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" value="" required>
+          </div>
+          <div class="form-group">
+            <label class="col-form-label">Senha:</label>
+            <input type="password" class="form-control" id="password" name="password" value="" required>
+          </div>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <input type="hidden" name="id" id="id" value=""/>
+        <input type="hidden" name="_method" id="method" value="POST">
+        <input type="submit" class="btn btn-primary" id="btnSubmit" value="Cadastrar">
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+    <div class="row pt-5 text-center">
+      <div class="col-12">
+        <h1>Usuários</h1>
+      </div>
+      <div class="col-12">
+        <button type="button" class="btn btn-primary btnCadastrar">
+          Cadastrar
+        </button>
+      </div>
+    </div>
+    <div class="row pb-5" id="divUsers">
+      
+
+
+    </div>  
+  </div>
+  
+</body>
+
+<script src="js/script.js"></script>
+</html>

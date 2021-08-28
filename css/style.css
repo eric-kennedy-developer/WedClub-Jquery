@@ -1,0 +1,70 @@
+.parent{
+	text-align:center;
+	padding-top:20px;
+}
+.parent img{
+	max-width:200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.parent .userName
+{
+	font-size:20px;
+	font-weight:bold;
+	color:#000;
+}
+.parent .userEmail
+{
+	font-size:20px;
+	font-weight:bold;
+	color:#000;
+}
+.btnEditar
+{
+	padding-left:5px;
+	padding-right:3px;
+	padding-top:4px;
+	margin-right:10px;
+}
+.btnExcluir
+{
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:4px;
+}
+
+.Recem_Contratado
+{
+	background-color:#e10040;
+	color:#FFF;
+	display:table;
+	padding-left:5px;
+	padding-right:5px;
+	border-radius:10px;
+	font-size:10px;
+	width:100px;
+	
+	position:absolute;
+	left:calc(50% - 50px);
+	top:224px;
+
+	animation-name: animationWedClubWedClass;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+    
+}
+
+@keyframes animationWedClubWedClass {
+    0%     {background-color:#e10040;}
+    50.0%  {background-color:#1a50ae;}
+    100.0%  {background-color:#e10040;}
+}
+
+#foto_perfil
+{
+	height:40px;
+	border:none;
+}
